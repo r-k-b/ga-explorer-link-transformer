@@ -1,0 +1,15 @@
+{
+  "name": "ga-explorer-link-transformer",
+  "version": "1.0.0",
+  "description": "Transform 'GA Core Reporting API Explorer' urls into something a little easier to use in Power BI.",
+  "main": "pojs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert K. Bell <robert.k.bell@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "get-stdin": "5.0.1",
+    "ramda": "0.22.1"
+  }
+}
