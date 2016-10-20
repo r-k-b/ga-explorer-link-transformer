@@ -12,7 +12,7 @@ let replaceStartDate = s => s.replace(
 
 let replaceEndDate = s => s.replace(
     /end\-date\=[\d\-]{10}/i,
-    'start-date=MONTHEND'
+    'end-date=MONTHEND'
 );
 
 let run = compose(
